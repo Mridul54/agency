@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.nav-container{
+    display: flex;
+    background-color:gray;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 17px;
+    font-style: italic;
+    
+}
+.banner-container{
+    height: 100vh;
+    background-image: url(../asset/image/background.jpg), linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.2));
+    background-blend-mode: overlay;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-blend-mode: overlay; */
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.primary{
+    color: red;
+    fo
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+
+}
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+    
+}
+.btn{
+    padding: 12px 20px;
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.bg-primary{
+    background-color: rgb(236, 8, 8);
+    color: white;
+}
+.service-container{
+    height: 100vh;
+    background-image: url(../asset/image/footer-bg.png), linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    background-position:center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* background-blend-mode: overlay; */
+    /* text-align: center;
+    display: flex; */
+    align-items: center;
+    display: flex;
+    padding: 50px;
+    justify-content: space-around;
+}
+.icon{
+    width: 70px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+    /* box-shadow: 4px 4px 4px rgb(207, 158, 158); */
+}
+.left-description{
+    width: 50%;
+    margin: 20px 0px;
+    font-size: 20px;
+}
+.two-box{
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.img{
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin-top: 15px;
+}
+.profile-img{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.h6{
+    font-size: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.service-container-head{
+    font-size: 50px;
+}
